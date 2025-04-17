@@ -26,6 +26,7 @@ const data: Data[] = [
     id: 'welcome',
     name: 'EJC Sacred Heart',
     time: {
+      arrival: '9:00',
       departure: '9:30'
     },
     w3w: 'vent.game.action',
