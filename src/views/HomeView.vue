@@ -30,7 +30,7 @@ const data: Data[] = [
       departure: '9:30'
     },
     w3w: 'vent.game.action',
-    description: 'This is our initial gathering point. We plan to meet here at 9:30 as we\'re departing at 9:45.',
+    description: 'This is our initial gathering point. We plan to meet here at 9:00 as we\'re departing at 9:30.',
   },
   {
     id: 'church-1',
