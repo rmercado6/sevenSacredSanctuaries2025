@@ -24,11 +24,11 @@ interface Data {
 const data: Data[] = [
   {
     id: 'welcome',
-    name: 'Sacred Heart',
+    name: 'EJC Sacred Heart',
     time: {
       departure: '9:30'
     },
-    w3w: 'cave.policy.breed',
+    w3w: 'vent.game.action',
     description: 'This is our initial gathering point. We plan to meet here at 9:30 as we\'re departing at 9:45.',
   },
   {
