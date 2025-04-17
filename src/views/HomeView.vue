@@ -106,7 +106,7 @@ So Pilate said to him, "Then you are a king?" Jesus answered, "You say I am a ki
   },
   {
     id: 'church-5',
-    name: 'St. Albert\'s Chapliancy',
+    name: 'St. Albert\'s Chaplaincy',
     time: {
       arrival: '12:30',
       departure: '12:50'
