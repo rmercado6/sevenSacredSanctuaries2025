@@ -12,6 +12,7 @@ interface Data {
     departure?: string
   },
   w3w?: string
+  img?: string
   description?: string
   reading?: {
     title: string
@@ -202,6 +203,10 @@ function copyToClipboard(text: string) {
         The Solemn Liturgy of the Lord's Passion will be celebrated there at 3:00 PM.
         We hope you can join us for that too.
       </p>
+      <div class="flex gap-3 items-center justify-center px-4 mt-6">
+        <img src="/pilgrimsOfHope.jpeg" alt="Pilgrims of Hope" class="w-1/3"/>
+        <img src="/magisFutures.jpeg" alt="Magis Futures" class="w-2/3" />
+      </div>
       <Accordion type="multiple" class="w-full mt-10" collapsible :default-value="defaultValue">
         <AccordionItem
           v-for="item in data"
