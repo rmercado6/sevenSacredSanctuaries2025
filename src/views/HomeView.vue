@@ -26,7 +26,7 @@ const data: Data[] = [
     id: 'welcome',
     name: 'Sacred Heart',
     time: {
-      departure: '9:45'
+      departure: '9:30'
     },
     w3w: 'cave.policy.breed',
     description: 'This is our initial gathering point. We plan to meet here at 9:30 as we\'re departing at 9:45.',
@@ -64,7 +64,7 @@ He said to them, "Why are you sleeping? Get up and pray that you may not undergo
       title: 'Jesus before Annas',
       cite: 'Jn 18:19-23',
       text: `The high priest questioned Jesus about his disciples and about his doctrine.
-Jesus answered him, "I have spoken publicly to the world. I have always taught in a synagogue or in the temple area 10 where all the Jews gather, and in secret I have said nothing.
+Jesus answered him, "I have spoken publicly to the world. I have always taught in a synagogue or in the temple area where all the Jews gather, and in secret I have said nothing.
 Why ask me? Ask those who heard me what I said to them. They know what I said."
 When he had said this, one of the temple guards standing there struck Jesus and said, "Is this the way you answer the high priest?"
 Jesus answered him, "If I have spoken wrongly, testify to the wrong; but if I have spoken rightly, why do you strike me?"`
@@ -125,7 +125,7 @@ He questioned him at length, but he gave him no answer.
     time: {
       departure: '13:10'
     },
-    description: 'We are having a wee break for taking some lunch as we are walking a long way across Edinburgh.'
+    description: 'We are taking a wee break to have some lunch as we are walking a long way.'
   },
   {
     id: 'church-6',
@@ -163,8 +163,6 @@ And when they had mocked him, they stripped him of the cloak, dressed him in his
     }
   }
 ]
-
-const defaultValue = 'welcome'
 
 function copyToClipboard(text: string) {
   navigator.clipboard.writeText(text)
@@ -204,10 +202,10 @@ function copyToClipboard(text: string) {
         We hope you can join us for that too.
       </p>
       <div class="flex gap-3 items-center justify-center px-4 mt-6">
-        <img src="/pilgrimsOfHope.jpeg" alt="Pilgrims of Hope" class="w-1/3"/>
-        <img src="/magisFutures.jpeg" alt="Magis Futures" class="w-2/3" />
+        <img src="/pilgrimsOfHope.jpeg" alt="Pilgrims of Hope" class="max-w-1/3"/>
+        <img src="/magisFutures.jpeg" alt="Magis Futures" class="max-w-2/3" />
       </div>
-      <Accordion type="multiple" class="w-full mt-10" collapsible :default-value="defaultValue">
+      <Accordion type="multiple" class="w-full mt-10" collapsible>
         <AccordionItem
           v-for="item in data"
           :key="item.id"
