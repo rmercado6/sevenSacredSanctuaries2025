@@ -11,7 +11,7 @@ import { ref } from 'vue'
 
 import { ClockArrowDown, ClockArrowUp, Copy, Map } from 'lucide-vue-next'
 
-import { dataByYear } from '@modules/data'
+import { dataByYear } from '@/modules/data'
 
 interface HomeRouteParams {
   year?: number
@@ -141,8 +141,8 @@ function copyToClipboard(text: string) {
       </Accordion>
       <div class="text-end text-xs mt-5">
         <span class="font-semibold">History</span>
-        <div v-for="year in Object.keys(dataByYear)">
-          <a v-if="year !== selectedYear" :href="'/' + year" class="text-primary-600">
+        <div v-for="year in Object.keys(dataByYear)" :key="year">
+          <a v-if="year !== selectedYear.toString()" :href="'/' + year" class="text-primary-600">
             {{ year }}
           </a>
           <span v-else>
