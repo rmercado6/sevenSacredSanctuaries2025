@@ -59,6 +59,14 @@ function copyToClipboard(text: string) {
       </p>
       <br />
       <p class="text-justify">
+        The pilgrimage includes a planned luch stop.
+        <i class="font-semibold">
+          We highly recommend taking some sort of packed lunch with you as we are planning a short
+          time for it.
+        </i>
+      </p>
+      <br />
+      <p class="text-justify">
         The pilgrimage will end at the Church of the Sacred Heart. The Solemn Liturgy of the Lord's
         Passion will be celebrated there at 3:00 PM. We hope you can join us for that too.
       </p>

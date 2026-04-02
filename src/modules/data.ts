@@ -246,6 +246,7 @@ const dataByYear: Record<number, Data[]> = {
       name: "St. Marys's RC Cathedral",
       time: {
         arrival: '12:50',
+        departure: '13:10',
       },
       w3w: 'churn.worked.margin',
       reading: bodies['church-5'].reading,
@@ -254,6 +255,7 @@ const dataByYear: Record<number, Data[]> = {
       id: 'lunch-stop',
       name: 'Lunch Stop at the Cathedral Steps',
       time: {
+        arrival: '13:10',
         departure: '13:30',
       },
       description: bodies['lunch-stop'].description,
