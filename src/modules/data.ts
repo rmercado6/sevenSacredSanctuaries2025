@@ -195,8 +195,8 @@ const dataByYear: Record<number, Data[]> = {
       id: 'welcome',
       name: 'EJC Sacred Heart',
       time: {
-        arrival: '9:00',
-        departure: '9:30',
+        arrival: '9:30',
+        departure: '10:00',
       },
       w3w: 'vent.game.action',
       description: bodies.welcome.description,
@@ -215,8 +215,8 @@ const dataByYear: Record<number, Data[]> = {
       id: 'church-2',
       name: "St Patrick's, Coogate",
       time: {
-        arrival: '10:45',
-        departure: '11:05',
+        arrival: '11:00',
+        departure: '11:20',
       },
       w3w: 'placed.result.filed',
       reading: bodies['church-2'].reading,
@@ -225,26 +225,18 @@ const dataByYear: Record<number, Data[]> = {
       id: 'church-3',
       name: "St. Albert's Chaplaincy",
       time: {
-        arrival: '11:20',
-        departure: '11:40',
+        arrival: '11:35',
+        departure: '11:55',
       },
       w3w: 'palace.lied.trees',
       reading: bodies['church-3'].reading,
     },
     {
-      id: 'lunch-stop',
-      name: 'Lunch Stop at the Meadows',
-      time: {
-        departure: '13:10',
-      },
-      description: bodies['lunch-stop'].description,
-    },
-    {
       id: 'church-4',
       name: "Old St. Paul's Episcopal Church",
       time: {
-        arrival: '11:50',
-        departure: '12:10',
+        arrival: '12:15',
+        departure: '12:35',
       },
       w3w: 'finishing.resist.behind',
       reading: bodies['church-4'].reading,
@@ -253,18 +245,25 @@ const dataByYear: Record<number, Data[]> = {
       id: 'church-5',
       name: "St. Marys's RC Cathedral",
       time: {
-        arrival: '12:30',
-        departure: '12:50',
+        arrival: '12:50',
       },
       w3w: 'churn.worked.margin',
       reading: bodies['church-5'].reading,
     },
     {
+      id: 'lunch-stop',
+      name: 'Lunch Stop at the Cathedral Steps',
+      time: {
+        departure: '13:30',
+      },
+      description: bodies['lunch-stop'].description,
+    },
+    {
       id: 'church-6',
       name: "St. Columba's By The Castle Episcopal Church",
       time: {
-        arrival: '13:30',
-        departure: '13:50',
+        arrival: '13:50',
+        departure: '14:10',
       },
       w3w: 'accent.awards.calms',
       reading: bodies['church-6'].reading,
@@ -273,7 +272,7 @@ const dataByYear: Record<number, Data[]> = {
       id: 'church-7',
       name: 'EJC Sacred Heart',
       time: {
-        arrival: '14:30',
+        arrival: '14:20',
       },
       w3w: 'vent.game.action',
       reading: bodies['church-7'].reading,
