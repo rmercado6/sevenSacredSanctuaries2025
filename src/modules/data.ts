@@ -196,7 +196,7 @@ const dataByYear: Record<number, Data[]> = {
       name: 'EJC Sacred Heart',
       time: {
         arrival: '9:30',
-        departure: '10:00',
+        departure: '10:05',
       },
       w3w: 'vent.game.action',
       description: bodies.welcome.description,
@@ -215,8 +215,8 @@ const dataByYear: Record<number, Data[]> = {
       id: 'church-2',
       name: "St Patrick's, Coogate",
       time: {
-        arrival: '11:00',
-        departure: '11:20',
+        arrival: '11:55',
+        departure: '11:15',
       },
       w3w: 'placed.result.filed',
       reading: bodies['church-2'].reading,
@@ -236,7 +236,7 @@ const dataByYear: Record<number, Data[]> = {
       name: "Old St. Paul's Episcopal Church",
       time: {
         arrival: '12:15',
-        departure: '12:35',
+        departure: '12:40',
       },
       w3w: 'finishing.resist.behind',
       reading: bodies['church-4'].reading,
@@ -245,8 +245,8 @@ const dataByYear: Record<number, Data[]> = {
       id: 'church-5',
       name: "St. Marys's RC Cathedral",
       time: {
-        arrival: '12:50',
-        departure: '13:10',
+        arrival: '12:45',
+        departure: '13:00',
       },
       w3w: 'churn.worked.margin',
       reading: bodies['church-5'].reading,
@@ -255,8 +255,8 @@ const dataByYear: Record<number, Data[]> = {
       id: 'lunch-stop',
       name: 'Lunch Stop at the Cathedral Steps',
       time: {
-        arrival: '13:10',
-        departure: '13:30',
+        arrival: '13:00',
+        departure: '13:20',
       },
       description: bodies['lunch-stop'].description,
     },
@@ -264,8 +264,8 @@ const dataByYear: Record<number, Data[]> = {
       id: 'church-6',
       name: "St. Columba's By The Castle Episcopal Church",
       time: {
-        arrival: '13:50',
-        departure: '14:10',
+        arrival: '13:45',
+        departure: '14:05',
       },
       w3w: 'accent.awards.calms',
       reading: bodies['church-6'].reading,
@@ -274,7 +274,7 @@ const dataByYear: Record<number, Data[]> = {
       id: 'church-7',
       name: 'EJC Sacred Heart',
       time: {
-        arrival: '14:20',
+        arrival: '14:15',
       },
       w3w: 'vent.game.action',
       reading: bodies['church-7'].reading,
